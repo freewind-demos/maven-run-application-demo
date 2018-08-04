@@ -1,9 +1,10 @@
-Maven Demo
-==========
+Maven Run Application Demo
+==========================
 
-A very simple maven project demo.
+Run main class from `mvn` command line:
 
 ```
-mvn clean install
+mvn compile exec:java
 ```
 
+You will see `Hello, Maven!` printed in console.
